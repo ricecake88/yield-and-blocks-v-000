@@ -8,4 +8,6 @@ def hello_t(array)
   array
 end
 
-hello_t(["Tim", "Tom", "Jim"])
+hello_t(["Tim", "Tom", "Jim"]) do |name|
+
+end
